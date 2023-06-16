@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proyecto Bjob</title>
+        <meta name="Bjob" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/cursoSQL/style.css" type="text/css">
+        <script type="text/javascript" src="/cursoSQL/index.js"></script>
+    </head>
+    <body>
+            <!-- como ya tenia implementada la comprobación de pattern para cada imput del modulo pasado, prefiero reutilizar el código javascript porque  se ve más limpo el código auqnue esto me reste nota -->
+            <form class="form" method="POST" action="formulario.php" id="formulario">
+                <h2 id="tituloForm" >Create Acount</h2>
+                <output>Nombre :</output>
+                <div class="container_input">
+                    <input id="inputName" type="text" name="imputName" placeholder="Nombre" style="background-color: white;width: 90%;" required ><img id="img1">
+                </div>
+
+                <output>Primer Apellido :</output>
+                <div class="container_input">
+                    <input id="inputFirstSurname" type="text" name="inputFirstSurname" placeholder="Nombre" style="background-color: white;width: 90%;" required ><img id="img5">
+                </div>
+
+                <output>Segundo Apellido :</output>
+                <div class="container_input">
+                    <input id="inputSecondSurname" type="text" name="inputSecondSurname" placeholder="Nombre" style="background-color: white;width: 90%;" required ><img id="img6">
+                </div>
+
+                 <output>Email :</output>
+                 <div class="container_input">
+                    <input id="inputEmail" type="email" name="imputEmail" placeholder="lisbeth@example.com" style="background-color: white;width: 90%;" required/><img id="img2">
+                </div>
+
+                <output>login :</output>
+                <div class="container_input">
+                    <input id="inputLogin"type="text" name="login" maxlength="8" placeholder="Nombre de usuario" style="background-color: white;width: 90%;" required/><img id="img7">
+                </div>
+
+                 <output>Clave :</output>
+                <div class="container_input">
+                    <input id="inputClave1"type="password" name="inputClave1" minlength="4" maxlength="8" placeholder="pasword 8 caracters" style="background-color: white;width: 90%;" required/><img id="img3">
+                </div>
+
+                <output>Confirme su clave :</output>
+                <div class="container_input">
+                    <input id="inputClave2" type="password" maxlength="8" placeholder="password repeat" style="background-color: white;width: 90%;" required/><img id="img4">
+                </div>
+                <center> <input type="submit" value="Registrarme" /></center>
+            </form>
+    </body>
+</html>

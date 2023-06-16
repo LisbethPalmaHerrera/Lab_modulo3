@@ -1,0 +1,52 @@
+
+  body {
+    background-color: #ccc;
+    /*transition: 0.5s ease-in-out;*/
+    }
+
+  .form {
+    background-color:#2F3644;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    /*align-items: center;*/
+  }
+ .form input {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .form output{
+    font-weight:bold;
+    color:white;
+  }
+  
+  #tituloForm {
+    color: #AAB8DF;
+    text-align: center;
+  }
+  input[type="submit"]{
+    width: 150px;
+    background-color:#def0de; 
+    color:#15d70e; 
+    font-weight:bold;
+    width: 150px;
+
+  }
+  input[type="submit"]:hover{
+    background-color: green;
+    color: white;
+  }
+  
+  .container_input{
+    display: flex;
+    flex-direction: row;
+  }
+
+.img{
+   margin: auto;
+  }
